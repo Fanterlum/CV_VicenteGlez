@@ -8,8 +8,28 @@
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!--  llamado para Carousel CSS y JS --> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </head>
 <body class="is-boxed has-animations">
+    <!-- Bloque con el carousel que vamos a estar desplazando-->  >
+    <div class="image-carousel">
+        <div class="image-container">
+          <img src="https://i.redd.it/6l5ammjqfl321.png" alt="Image 1">
+        </div>
+        <div class="image-container">
+          <img src="https://hideawaybeachmaldives.com/wp-content/uploads/2016/08/360_bg-matheefaru-1800x600.jpg" alt="Image 2">
+        </div>
+        <div class="image-container">
+          <img src="https://www.mudarseamerida.com/site/assets/files/82081/render_hd_locales_arborea_fachada_frontal_05.1800x600.jpg" alt="Image 3">
+        </div>
+    </div>
+    
+
     <div class="body-wrap boxed-container">
         <header class="site-header">
             <div class="container">
@@ -17,8 +37,8 @@
                     <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="#">
-								<img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
-								<img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+                                <img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
+                                <img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
                             </a>
                         </h1>
                     </div>
@@ -184,5 +204,7 @@
     </div>
 
     <script src="dist/js/main.min.js"></script>
+  
+
 </body>
 </html>
