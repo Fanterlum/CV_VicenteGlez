@@ -1,0 +1,12 @@
+{
+  "name": "primer_proyecto",
+  "version": "1.0.0",
+  "description": "Primer proyecto con node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "vicente",
+  "license": "ISC"
+}
