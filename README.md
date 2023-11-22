@@ -26,3 +26,16 @@ Función handleServiceHours javascript Copy code async function handleServiceHou
 Función serveDashboardPage javascript Copy code async function serveDashboardPage(res, userId) { // Manejo de la página de dashboard // Generación de contenido dinámico basado en los datos de horas registradas en userData // (Código relacionado con la página de dashboard no está incluido en este fragmento) } En esta función, se maneja la página de dashboard y se genera contenido dinámico basado en los datos de horas registradas en userData.
 
 Función serveFile javascript Copy code async function serveFile(req, res) { // Manejo de solicitudes para servir archivos y contenido estático // Determinación del tipo de contenido y lectura de archivos // (Código relacionado con la lectura de archivos y determinación del tipo de contenido está incluido en este fragmento) } En esta función, se manejan solicitudes para servir archivos y contenido estático, y se determina el tipo de contenido en función de la extensión del archivo.
+
+
+# Actividad 5 Laravel
+
+![image](https://github.com/Fanterlum/CV_VicenteGlez/assets/73490758/5df0b242-f2f7-450a-826b-7d3b9a43f93f)
+![image](https://github.com/Fanterlum/CV_VicenteGlez/assets/73490758/aba9e2dc-ef0d-466e-b9e1-b637e5f9d4b9)
+![image](https://github.com/Fanterlum/CV_VicenteGlez/assets/73490758/cb2548e3-5ab8-43a1-95b4-379bed0cf819)
+![image](https://github.com/Fanterlum/CV_VicenteGlez/assets/73490758/96432b7a-ca8d-4885-9a10-41fbf3cf4f6d)
+
+
+
+
+
